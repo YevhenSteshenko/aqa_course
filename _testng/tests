@@ -1,0 +1,21 @@
+public class MMStartPageTest extends BaseTest {
+    @Test
+    public void testMMStartPageLinks() {
+        System.out.println("Start page links");
+    }
+
+    @Test
+    public void testMMStartPageButtons() {
+        System.out.println("Start page buttons");
+    }
+}
+
+
+
+
+public class MMQuizPassedTest extends BaseTest {
+    @Test
+    public void testMMQuizPassed() {
+        System.out.println("Quiz Passed test");
+    }
+}

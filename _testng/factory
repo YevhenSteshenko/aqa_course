@@ -1,0 +1,16 @@
+public class MMStartPageTest extends BaseTest {
+    private final Loc location;
+
+    public MMStartPageTest(Loc location) {
+        this.location = location;
+    }
+
+    @Factory
+    public static Object[] factoryMethod() {
+        return new Object[] { new MMStartPageTest(Loc.EU), new MMStartPageTest(Loc.US) };
+    }
+
+    private enum Loc {
+        EU, US
+    }
+}
