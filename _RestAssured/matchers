@@ -1,0 +1,4 @@
+.body("profile.name", Matchers.is("Uat_test_zq0umxe1ttryhllinygu535eygujdzoi"))
+                .body("profile.email", Matchers.is("uat_test_zq0umxe1ttryhllinygu535eygujdzoi@example.com"))
+                .body("progress.calendar", Matchers.hasSize(2))
+                .body("splits.price", Matchers.nullValue())

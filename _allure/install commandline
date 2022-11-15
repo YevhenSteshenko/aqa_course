@@ -1,0 +1,11 @@
+-go to maven repository
+-find allure-commandline
+-download zip file
+-create folder and unpacking
+-add path to .profile
+-reboot
+
+
+allure generate /home/evgeniy/IdeaProjects/aqa_course/target/allure-results
+allure open /home/evgeniy/IdeaProjects/aqa_course/allure-report
+allure serve /home/evgeniy/IdeaProjects/aqa_course/target/allure-results

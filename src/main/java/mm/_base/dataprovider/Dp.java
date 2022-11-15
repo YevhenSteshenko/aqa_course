@@ -4,8 +4,8 @@ import org.testng.annotations.DataProvider;
 
 public class Dp {
 
-    @DataProvider(name = "blablabla")
-    public Object[][] validData() {
+    @DataProvider(name = "validData")
+    public static Object[][] validData() {
         return new Object[][]{
                 {4, "Fourth"},
                 {5, "Fifth"},

@@ -1,0 +1,3 @@
+        SelenideLogger.addListener("AllureSelenide"
+                , new AllureSelenide().screenshots(true).savePageSource(false));
+        Allure.addAttachment("Text" , new ByteArrayInputStream("It's UM start page".getBytes()));

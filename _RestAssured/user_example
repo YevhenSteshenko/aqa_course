@@ -1,0 +1,5 @@
+        RequestSpecification specification = new RequestSpecBuilder()
+                .setBaseUri("http://bodyfit2.loc/api/v4.0/user/2977e0d2-aace-4ec1-9092-77428c077328/")
+                .addHeader("Authorization", "Bearer V4UsILt9kW0F6kxcFzfkxmfRea1nSe3S6qbJvdDdylMAe0CYy1")
+                .setContentType(ContentType.JSON)
+                .build();

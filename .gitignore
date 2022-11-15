@@ -1,3 +1,4 @@
+/*.iml
 target/
 pom.xml.tag
 pom.xml.releaseBackup
@@ -42,3 +43,4 @@ quiz/target
 /mock-server/mock-server.iml
 /um-front/um-front.iml
 .allure/
+/untitled.iml

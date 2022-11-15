@@ -1,13 +1,16 @@
 package tests.ui.mm;
 
+import io.qameta.allure.*;
 import mm._base.BaseTest;
 import mm._base.dataprovider.Dp;
 import org.testng.Assert;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Factory;
 import org.testng.annotations.Test;
 
+@Epic("All tests")
+@Feature("MM tests")
+@Story("MM Start page")
 public class MMStartPageTest extends BaseTest {
     private final Loc location;
 
@@ -32,7 +35,7 @@ public class MMStartPageTest extends BaseTest {
     }
 
     @Test(dataProviderClass = Dp.class
-            , dataProvider = "blablabla")
+            , dataProvider = "validData")
     public void testMMStartPageButtons(int count, String value){
         System.out.println("MM Quiz start page buttons");
         System.out.println("Count:  " + count + "  Value:  " + value);
@@ -48,4 +51,11 @@ public class MMStartPageTest extends BaseTest {
                 {3, "Third"},
         };
     }
+//
+//    @Step("Perform Actions.")
+//    public void printSteps(int count, String value) {
+//        System.out.println("MM Quiz start page buttons");
+//        System.out.println("Count:  " + count + "  Value:  " + value);
+//        System.out.println("Location:  " + location);
+//    }
 }

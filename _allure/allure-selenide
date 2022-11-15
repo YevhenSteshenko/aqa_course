@@ -1,0 +1,2 @@
+        SelenideLogger.addListener("AllureSelenide"
+                , new AllureSelenide().screenshots(true).savePageSource(false));
